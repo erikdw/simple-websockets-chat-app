@@ -94,8 +94,8 @@ Resources:
   Stage:
     Type: AWS::ApiGatewayV2::Stage
     Properties:
-      StageName: Prod
-      Description: Prod Stage
+      StageName: erikdw-test
+      Description: erikdw Test
       DeploymentId: !Ref Deployment
       ApiId: !Ref SimpleChatWebSocket
   ConnectionsTable:
